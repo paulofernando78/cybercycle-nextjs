@@ -1,0 +1,18 @@
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  filter: invert();
+  width: 35px;
+  height: auto;
+}
+
+.logo-name {
+  width: 150px;
+  height: auto;
+  position: relative;
+  top: 3px;
+}
