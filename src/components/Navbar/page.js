@@ -10,15 +10,15 @@ export function Navbar() {
     <>
       <header>
         <nav aria-label="Main Navigation">
-          <ul className={styles["flex"]}>
-            <li>
+          <ul className={styles["link-container"]}>
+            <li className={styles["btn-border"]}>
               <Link href="/bicycles">Bicycles</Link>
             </li>
-            <li>
-              <Link href="/bicycles">Insurance</Link>
+            <li className={styles["btn-border"]}>
+              <Link href="/contact">Insurance</Link>
             </li>
-            <li>
-              <Link href="/bicycles">Contact</Link>
+            <li className={styles["btn-border"]}>
+              <Link href="/insurance">Contact</Link>
             </li>
           </ul>
         </nav>

@@ -2,6 +2,9 @@ import React from 'react'
 
 export default function Insurance() {
   return (
-    <div>Insurance</div>
+    <>
+      <h1>Insurance</h1>
+      <h2>...</h2>
+    </>
   )
 }

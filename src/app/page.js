@@ -9,7 +9,7 @@ import { introduction } from "@img/index";
 export default function Home() {
   return (
     <div className="line-break">
-      <h1 className="shadow-effect">The future of bicycling starts here.</h1>
+      <h1 className="uppercase shadow-effect">The future of bicycling starts here</h1>
       <p>
         Experience cutting-edge, battery-powered bicycles designed for the
         ultimate ride. Our sleek models redefine mobility, combining effortless
@@ -22,7 +22,7 @@ export default function Home() {
         alt="Cybercycle"
         className="img-customazation"
       />
-      <h1>Customize yours now</h1>
+      <h1 className="uppercase">Customize yours now</h1>
       <div>
         <h2>Advance technology</h2>
         <h3>Our bicycles are equipped with the latest in battery technology, providing more range, faster charging, and intelligent power management to optimize every ride. Welcome to the future of transportation.</h3>

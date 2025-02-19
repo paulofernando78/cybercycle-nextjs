@@ -49,6 +49,20 @@ li {
   box-shadow: inset;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+h1 {
+  -webkit-text-stroke: 1px #22d3ee;
+  color: transparent;
+}
+
+h2 {
+  -webkit-text-stroke: 1px #9ca3af;
+  color: transparent;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

@@ -1,6 +1,18 @@
-.flex {
+.link-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
+}
+
+.btn-border {
+  border: 1px solid lightblue;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+}
+
+@media (width <= 600px) {
+  .link-container {
+    margin: 1rem;
+  }
 }
