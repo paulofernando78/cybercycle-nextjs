@@ -7,7 +7,7 @@ import { Kanit } from "next/font/google";
 
 // Fonts
 const kanit = Kanit({
-  weight: ['400', '700'],
+  weight: ["400", "700"],
   subsets: ["latin"],
 });
 
@@ -24,10 +24,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={kanit.className}>
-        <div className={styles["header-navbar-flex"]}>
+        <div className={styles["header-navbar-container"]}>
           <Header />
           <Navbar />
         </div>
+
         <main>{children}</main>
         <Footer />
       </body>
