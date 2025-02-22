@@ -3,6 +3,7 @@ import { Header } from "@/components/Header/page";
 import { Navbar } from "@/components/Navbar/page";
 import Footer from "@/components/Footer/page";
 
+// Next JS Google Ftons
 import { Kanit } from "next/font/google";
 
 // Fonts
@@ -13,12 +14,12 @@ const kanit = Kanit({
 
 export const metadata = {
   title: "CyberCycle",
-  description: "The Future is here.",
+  description: "Futuristic bicycles for the modern world",
 };
 
 // Styles
 import "./globals.css";
-import styles from "./styles.module.css";
+import styles from "./layout.module.css";
 
 export default function RootLayout({ children }) {
   return (
@@ -28,7 +29,6 @@ export default function RootLayout({ children }) {
           <Header />
           <Navbar />
         </div>
-
         <main>{children}</main>
         <Footer />
       </body>

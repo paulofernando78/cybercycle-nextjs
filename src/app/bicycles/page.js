@@ -10,7 +10,7 @@ import styles from "./styles.module.css";
 
 export default function Bicycles() {
   return (
-    <div>
+    <div className="bicycle-page">
       <h1>Our bicycles</h1>
       <h2>Explore our models</h2>
       <div className={styles["bicycle-container"]}>

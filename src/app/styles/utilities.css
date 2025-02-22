@@ -1,0 +1,57 @@
+.line-break {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.margin-top {
+  margin-top: 1.25rem;
+}
+
+.margin-bottom {
+  margin-bottom: 1.25rem;
+}
+
+.margin-left {
+  margin-left: 0.5rem;
+}
+
+.margin-right {
+  margin-right: 0.5rem;
+}
+
+  .margin-block {
+  margin-block: 0.5rem;
+}
+
+.margin-inline {
+  margin-inline: 0.5rem;
+}
+
+.padding-top {
+  padding-top: 0.625rem;
+}
+
+.padding-bottom {
+  padding-bottom: 0.625rem;
+}
+
+.padding-left {
+  padding-left: 0.625rem;
+}
+
+.padding-right {
+  padding-right: 0.625rem;
+}
+
+.padding-block {
+  padding-block: 0.625rem;
+}
+
+.padding-inline {
+  padding-inline: 0.625rem;
+}
