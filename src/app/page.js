@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 // Styles
-import styles from "./page.module.css"
+import styles from "./page.module.css";
 
 // Images
 import { introduction } from "@img/index";
@@ -11,18 +11,20 @@ export default function Home() {
   return (
     <div className="line-break">
       <h1>The future of bicycling starts here</h1>
-      <p>
-        Experience cutting-edge, battery-powered bicycles designed for the
-        ultimate ride. Our sleek models redefine mobility, combining effortless
-        speed with futuristic design. Embrace the next generation of
-        biking—where innovation meets elegance, and every destination feels
-        within reach.
-      </p>
-      <Image
-        src={introduction}
-        alt="Cybercycle"
-        className="img-customazation"
-      />
+      <div className={styles["introduction-container"]}>
+        <p>
+          Experience cutting-edge, battery-powered bicycles designed for the
+          ultimate ride. Our sleek models redefine mobility, combining
+          effortless speed with futuristic design. Embrace the next generation
+          of biking—where innovation meets elegance, and every destination feels
+          within reach.
+        </p>
+        <Image
+          src={introduction}
+          alt="Cybercycle"
+          className="img-customazation"
+        />
+      </div>
       <h1>Customize yours now</h1>
       <div className={styles["info-container"]}>
         <div className="line-break">

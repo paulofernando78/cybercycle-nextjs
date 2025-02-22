@@ -5,8 +5,6 @@ import Footer from "@/components/Footer/page";
 
 // Next JS Google Ftons
 import { Kanit } from "next/font/google";
-
-// Fonts
 const kanit = Kanit({
   weight: ["400", "700"],
   subsets: ["latin"],

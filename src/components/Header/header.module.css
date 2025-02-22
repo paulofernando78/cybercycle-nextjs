@@ -1,7 +1,7 @@
-.flex {
+.header-container {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .logo {
@@ -11,8 +11,9 @@
 }
 
 .logo-name {
-  width: 150px;
-  height: auto;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
   position: relative;
-  top: 4px;
+  bottom: 3px;
 }

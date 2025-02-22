@@ -1,4 +1,30 @@
+.introduction-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+
+  img {
+    position: relative;
+    top: 15px;
+    left: 20px;
+    width: 90%;
+    transform: rotate(3deg);
+  }
+}
+
 .info-container {
   display: flex;
   gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .introduction-container {
+    grid-template-columns: 1fr;
+
+    img {
+      position: static;
+      transform: rotate(0deg);
+      width: 100%;
+    }
+  }
 }
