@@ -3,22 +3,26 @@
   grid-template-columns: repeat(3, 350px);
   /* gap: 1rem; */
   overflow-x: auto;
-}
 
-.bicycle-card {
-  padding: 8px;
-  margin: 7px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background: lightgrey;
-  transition: 0.3s ease;
-}
+  .card {
+    padding: 8px;
+    margin: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: lightgrey;
+    transition: 0.3s ease;
 
-.bicycle-card:hover {
-  transform: scale(1.02);
-}
+    img {
+      border: white 1px solid;
+      border-radius: 5px;
+    }
 
-.bicycle-card img {
-  border: white 1px solid;
-  border-radius: 5px;
+    p {
+      color: black;
+    }
+
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
 }
