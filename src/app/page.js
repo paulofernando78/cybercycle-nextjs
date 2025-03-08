@@ -5,7 +5,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 // Images
-import { introduction } from "@img/index";
+import { introduction, cyclist } from "@img/index";
 
 export default function Home() {
   return (
@@ -26,7 +26,7 @@ export default function Home() {
         />
       </div>
       <h1>Customize yours now</h1>
-      <div className={styles["info-container"]}>
+      <div className={styles["information-container"]}>
         <div className="line-break">
           <h2>Advance technology</h2>
           <p>
@@ -45,12 +45,20 @@ export default function Home() {
           </p>
           <h2>Tracking</h2>
           <p>
-            We know how precious your Bikcraft is, so we have added trackers and
-            anti-theft systems to ensure your peace of mind.
+            We know how precious your CyberWheel is, so we have added trackers
+            and anti-theft systems to ensure your peace of mind.
           </p>
         </div>
       </div>
       <h1>Our partners</h1>
+      <div className={styles["testimonials-container"]}>
+        <Image src={cyclist} alt="Cybercycle" className="img-customazation" />
+        <p>
+          Cycling has always been my passion, and what the people at CyberWheel
+          did was intensify my love for this activity. I recommend it to
+          everyone I care about.
+        </p>
+      </div>
     </div>
   );
 }

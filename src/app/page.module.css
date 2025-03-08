@@ -12,9 +12,24 @@
   }
 }
 
-.info-container {
+.information-container {
   display: flex;
-  gap: 0.5rem;
+  gap: 1.4rem;
+}
+
+.testimonials-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--gray-0);
+
+  p {
+    display: grid;
+    place-items: center;
+    padding: 1.2rem;
+    color: black;
+    font-size: 1.5rem;
+    font-style: italic;
+  }
 }
 
 @media (max-width: 768px) {
@@ -25,6 +40,19 @@
       position: static;
       transform: rotate(0deg);
       width: 100%;
+    }
+  }
+
+  .info-container {
+    flex-direction: column;
+  }
+
+  .testimonials-container {
+    grid-template-columns: 1fr;
+
+    img {
+      width: 90%;
+      margin: 0 auto;
     }
   }
 }

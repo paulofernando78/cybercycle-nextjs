@@ -1,7 +1,6 @@
 // Components
-import { Header } from "@/components/Header/page";
-import { Navbar } from "@/components/Navbar/page";
-import Footer from "@/components/Footer/page";
+import { Header } from "@/components/Header";
+import { Navbar } from "@/components/Navbar";
 
 // Next JS Google Ftons
 import { Kanit } from "next/font/google";
@@ -18,6 +17,7 @@ export const metadata = {
 // Styles
 import "./globals.css";
 import styles from "./layout.module.css";
+import { Footer } from "@/components/Footer";
 
 export default function RootLayout({ children }) {
   return (

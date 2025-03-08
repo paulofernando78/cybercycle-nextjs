@@ -12,7 +12,7 @@ export default function Bicycles() {
   return (
     <>
       <h1>Our bicycles</h1>
-      <h2>Explore our models</h2>
+      <h2 className="margin-bottom">Explore our models</h2>
       <div className={styles["bicycle-container"]}>
         <div className={`line-break ${styles["card"]}`}>
           <Image src={velocityV3} alt="Velocity Z2" layout="intrinsic" />

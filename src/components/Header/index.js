@@ -15,7 +15,7 @@ import styles from "./header.module.css";
 import { logo, logoName } from "@img/";
 import Link from "next/link";
 
-export function Header() {
+export const Header = () => {
   return (
     <>
       <header className={styles["header-container"]}>
