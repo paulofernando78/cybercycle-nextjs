@@ -43,24 +43,24 @@
     position: relative;
   }
 
-  p:before,
-  p:after {
+  .testmonials__text p:before,
+  .testmonials__text p:after {
     font-size: 5rem;
     position: absolute;
     color: var(--gray-3);
   }
 
-  p:before {
+  .testmonials__text p:before {
     content: '"';
     top: -40px;
     left: -45px;
   }
-  p:after {
+  .testmonials__text p:after {
     content: '"';
     bottom: -50px;
   }
 
-  span {
+  .testmonials__text span {
     text-align: right;
   }
 }
@@ -126,7 +126,7 @@
   .testimonials__container {
     grid-template-columns: 1fr;
 
-    img {
+    .testimonials__container img {
       width: 90%;
       margin: 0 auto;
     }
