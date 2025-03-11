@@ -26,7 +26,7 @@
   grid-template-columns: 1fr 1fr;
   background: var(--gray-0);
 
-  p {
+  .testimonials__container p {
     color: black;
     font-size: 1.5rem;
     font-style: italic;
