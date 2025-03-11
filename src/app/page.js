@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <div className="line-break">
       {/* Introduction */}
-      <section arial-label="Introduction">
+      <section className="line-break" arial-label="Introduction">
         <h1>The future of bicycling starts here</h1>
         <div className={styles["introduction__container"]}>
           <p>
@@ -64,7 +64,7 @@ export default function Home() {
         </div>
       </section>
       {/* Customzation */}
-      <section arial-label="Customization">
+      <section className="line-break" arial-label="Customization">
         <h1>Customize yours now</h1>
         <div className={styles["information__container"]}>
           <div className="line-break">
