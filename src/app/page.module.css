@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 
-  img {
+  .image {
     position: relative;
     top: 24px;
     left: 20px;
@@ -116,7 +116,7 @@
   .introduction__container {
     grid-template-columns: 1fr;
 
-    img {
+    .image {
       position: static;
       transform: rotate(0deg);
       width: 100%;

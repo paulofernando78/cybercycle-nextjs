@@ -59,7 +59,7 @@ export default function Home() {
           <Image
             src={introduction}
             alt="Cybercycle"
-            className="img-customazation"
+            className={`img-customazation ${styles["image"]}`}
           />
         </div>
       </section>
