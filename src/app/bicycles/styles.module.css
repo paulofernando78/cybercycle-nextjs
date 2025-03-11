@@ -12,12 +12,12 @@
     background: lightgrey;
     transition: 0.3s ease;
 
-    .card img {
+    .image {
       border: white 1px solid;
       border-radius: 5px;
     }
 
-    .card p {
+    .paragraph {
       color: black;
     }
 
