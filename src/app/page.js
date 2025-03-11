@@ -48,7 +48,7 @@ export default function Home() {
       {/* Introduction */}
       <section arial-label="Introduction">
         <h1>The future of bicycling starts here</h1>
-        <div className={styles["introduction-container"]}>
+        <div className={styles["introduction__container"]}>
           <p>
             Experience cutting-edge, battery-powered bicycles designed for the
             ultimate ride. Our sleek models redefine mobility, combining
@@ -66,7 +66,7 @@ export default function Home() {
       {/* Customzation */}
       <section arial-label="Customization">
         <h1>Customize yours now</h1>
-        <div className={styles["information-container"]}>
+        <div className={styles["information__container"]}>
           <div className="line-break">
             <h2>Advance technology</h2>
             <p>
@@ -93,7 +93,7 @@ export default function Home() {
       </section>
       {/* Partners */}
       <section
-        className={`line-break ${styles["partners-container"]}`}
+        className={`line-break ${styles["partners__container"]}`}
         arial-label="Partners"
       >
         <h1>Our partners</h1>
@@ -126,13 +126,13 @@ export default function Home() {
       </section>
       {/* Tetimonials */}
       <section arial-label="Testimonials">
-        <div className={styles["testimonials-container"]}>
+        <div className={styles["testimonials__container"]}>
           <Image src={cyclist} alt="Cybercycle" className="img-customazation" />
-          <blockquote className={styles["testimonials-text"]}>
-            <p className={styles["quote"]}>
-              “I never thought I would enjoy biking as much as I do now. The
+          <blockquote className={styles["testimonials__text"]}>
+            <p>
+              I never thought I would enjoy biking as much as I do now. The
               CyberWheel is a game-changer. Its fast, reliable, and so much fun
-              to ride.“
+              to ride.
             </p>
             <span>Ana Smith</span>
           </blockquote>
