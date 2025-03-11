@@ -39,7 +39,7 @@
   flex-direction: column;
   justify-content: center;
   
-  p {
+  .testmonials__text p {
     position: relative;
   }
 
