@@ -12,7 +12,7 @@ const anta = Anta({
 import styles from "./header.module.css";
 
 // Images
-import { logo, logoName } from "@img/";
+import { logo } from "@img/index";
 import Link from "next/link";
 
 export const Header = () => {

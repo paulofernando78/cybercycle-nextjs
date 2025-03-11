@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 
 // Images
-import { velocityV3, vortexV9, quantumX1 } from "@img/";
+import { velocityV3, vortexV9, quantumX1 } from "@img/index";
 
 // Styles
 import styles from "./styles.module.css";
