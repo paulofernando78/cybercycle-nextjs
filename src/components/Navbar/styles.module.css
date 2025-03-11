@@ -5,10 +5,18 @@
   gap: 1rem;
 }
 
-.btn-border {
-  border: 1px solid lightblue;
-  padding: 0.2rem 1rem;
-  border-radius: 5px;
+.link-border:after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: #fff;
+  width: 0%;
+  transition: 0.3s;
+  
+}
+
+.link-border:hover:after {
+  width: 100%;
 }
 
 @media (width <= 600px) {

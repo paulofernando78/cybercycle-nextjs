@@ -24,7 +24,7 @@ export const Navbar = () => {
         <nav aria-label="Main Navigation">
           <ul className={styles["link-container"]}>
             {links.map((link, linkIndex) => (
-              <li key={linkIndex} className={styles["btn-border"]}>
+              <li key={linkIndex} className={styles["link-border"]}>
                 <Link href={link.href}>{link.title}</Link>
               </li>
             ))}

@@ -5,7 +5,7 @@
 
   img {
     position: relative;
-    top: 15px;
+    top: 24px;
     left: 20px;
     width: 90%;
     transform: rotate(3deg);
@@ -17,19 +17,78 @@
   gap: 1.4rem;
 }
 
+.partners-container h1 {
+  text-align: center;
+}
+
 .testimonials-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background: var(--gray-0);
 
   p {
-    display: grid;
-    place-items: center;
-    padding: 1.2rem;
     color: black;
     font-size: 1.5rem;
     font-style: italic;
   }
+}
+
+.testimonials-text {
+  padding: 1rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  span {
+    text-align: right;
+  }
+}
+
+.slider {
+  width: 100%;
+  height: var(--height);
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+}
+
+.brands {
+  display: flex;
+
+  width: 100%;
+  min-width: calc(var(--width) * var(--quantity));
+  position: relative;
+}
+
+.logos {
+  width: var(--width);
+  height: var(--height);
+  position: absolute;
+  left: 100%;
+  animation: slider 15s linear infinite;
+  animation-delay: calc((15s / var(--quantity)) * (var(--position) - 1));
+}
+
+.logos img {
+  width: 100%;
+}
+
+@keyframes slider {
+  from {
+    left: 100%;
+  }
+  to {
+    left: calc(var(--width) * -1);
+  }
+}
+
+.slider:hover .logos {
+  animation-play-state: paused;
 }
 
 @media (max-width: 768px) {
