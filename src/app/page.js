@@ -128,10 +128,10 @@ export default function Home() {
       <section arial-label="Testimonials">
         <div className={styles["testimonials__container"]}>
           <Image src={cyclist} alt="Cybercycle" className="img-customazation" />
-          <blockquote className={styles["testimonials__text"]}>
+          <blockquote>
             <p>
               I never thought I would enjoy biking as much as I do now. The
-              CyberWheel is a game-changer. Its fast, reliable, and so much fun
+              CyberWheel is a game-changer. It's fast, reliable, and so much fun
               to ride.
             </p>
             <span>Ana Smith</span>

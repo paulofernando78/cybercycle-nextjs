@@ -32,10 +32,6 @@ a {
   line-height: clamp(1.4, 1.6, 1.8);
 }
 
-p {
-  color: var(--gray-3)
-}
-
 a,
 li {
   text-decoration: none;

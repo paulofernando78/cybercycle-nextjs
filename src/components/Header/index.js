@@ -23,9 +23,12 @@ export const Header = () => {
           <Image src={logo} alt="Logo" className={styles["logo"]} />
         </Link>
         <Link href="/">
-          <span className={`${anta.className} ${styles["logo-name"]}`}> CyberWheel</span>
+          <span className={`${anta.className} ${styles["logo-name"]}`}>
+            {" "}
+            CyberWheel
+          </span>
         </Link>
       </header>
     </>
   );
-}
+};
