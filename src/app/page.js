@@ -115,8 +115,8 @@ export default function Home() {
                 <Image
                   src={logo.src}
                   alt={logo.alt}
-                  width={130}
-                  height={80}
+                  width={0}
+                  height={0}
                   style={{ height: "auto" }}
                 />
               </li>
