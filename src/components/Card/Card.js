@@ -1,7 +1,7 @@
 // CSS
 import styles from "./Card.module.css";
 
-export const Card = ({ width, label, price, descriptions, silver, gold }) => {
+const Card = ({ width, label, price, descriptions, silver, gold }) => {
   return (
     <div
       className={`line-break ${styles["card__container"]}`}
@@ -25,3 +25,5 @@ export const Card = ({ width, label, price, descriptions, silver, gold }) => {
     </div>
   );
 };
+
+export default Card;

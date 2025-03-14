@@ -17,7 +17,7 @@ const links = [
   },
 ];
 
-export const NavBar = () => {
+const NavBar = () => {
   return (
     <>
       <header>
@@ -34,3 +34,5 @@ export const NavBar = () => {
     </>
   );
 };
+
+export default NavBar;
