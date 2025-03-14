@@ -2,10 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-
-  .footer div {
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
 }

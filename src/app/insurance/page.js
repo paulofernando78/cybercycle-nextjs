@@ -1,5 +1,5 @@
 // Components
-import { Card } from "@/components/Card";
+import { Card } from "@/components/Card/Card";
 
 // CSS
 import styles from "./insurance.module.css";
