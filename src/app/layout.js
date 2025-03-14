@@ -1,6 +1,3 @@
-// Components
-import { Header } from "@/components/Header";
-import { Navbar } from "@/components/Navbar";
 
 // Next JS Google Ftons
 import { Kanit } from "next/font/google";
@@ -14,10 +11,14 @@ export const metadata = {
   description: "Futuristic bicycles for the modern world",
 };
 
+// Components
+import { Header } from "@/components/Header/Header";
+import { NavBar } from "@/components/NavBar/NavBar";
+import { Footer } from "@/components/Footer/Footer";
+
 // Styles
 import "./globals.css";
 import styles from "./layout.module.css";
-import { Footer } from "@/components/Footer";
 
 export default function RootLayout({ children }) {
   return (
@@ -25,7 +26,7 @@ export default function RootLayout({ children }) {
       <body className={kanit.className}>
         <div className={styles["header-navbar-container"]}>
           <Header />
-          <Navbar />
+          <NavBar />
         </div>
         <main>{children}</main>
         <Footer />
