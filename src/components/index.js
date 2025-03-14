@@ -1,6 +1,6 @@
-import { default as Header } from "@components/Header/Header";
-import { default as NavBar } from "@components/NavBar/NavBar";
-import { default as Card } from "@components/Card/Card";
-import { default as Footer } from "@components/Footer/Footer";
+import { default as Header } from "./Header/Header";
+import { default as NavBar } from "./NavBar/NavBar";
+import { default as Card } from "./Card/Card";
+import { default as Footer } from "./Footer/Footer";
 
 export { Header, NavBar, Card, Footer };
