@@ -1,3 +1,4 @@
+/* Imports */
 @import "./styles/reset.css";
 @import "./styles/typography.css";
 @import "./styles/colors.css";
@@ -14,7 +15,7 @@ body {
   background: black;
 }
 
-.img-customazation {
+.img-customization {
   width: 100%;
   height: auto;
   border-radius: 5px;

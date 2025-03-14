@@ -1,12 +1,11 @@
-// Component
-import React from "react";
+// Next
 import Image from "next/image";
 
 // Images
 import { velocityV3, vortexV9, quantumX1 } from "@img/index";
 
-// Styles
-import styles from "./styles.module.css";
+// CSS
+import styles from "./bicycles.module.css";
 
 export default function Bicycles() {
   return (

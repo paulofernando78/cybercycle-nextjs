@@ -1,3 +1,7 @@
+:root {
+  --gap: 1.4rem;
+}
+
 .line-break {
   display: flex;
   flex-direction: column;

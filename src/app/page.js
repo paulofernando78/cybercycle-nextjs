@@ -59,14 +59,14 @@ export default function Home() {
           <Image
             src={introduction}
             alt="Cybercycle"
-            className={`img-customazation ${styles["image"]}`}
+            className={`img-customization ${styles["image"]}`}
           />
         </div>
       </section>
       {/* Customzation */}
       <section className="line-break" arial-label="Customization">
         <h1>Customize yours now</h1>
-        <div className={styles["information__container"]}>
+        <div className={styles["customization__container"]}>
           <div className="line-break">
             <h2>Advance technology</h2>
             <p>
@@ -127,7 +127,7 @@ export default function Home() {
       {/* Tetimonials */}
       <section arial-label="Testimonials">
         <div className={styles["testimonials__container"]}>
-          <Image src={cyclist} alt="Cybercycle" className="img-customazation" />
+          <Image src={cyclist} alt="Woman with a bicycle." className="img-customization" />
           <blockquote>
             <p>
               I never thought I would enjoy biking as much as I do now. The

@@ -1,0 +1,4 @@
+.insurance__container {
+  display: flex;
+  gap: var(--gap);
+}

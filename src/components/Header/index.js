@@ -9,7 +9,7 @@ const anta = Anta({
 });
 
 // Styles
-import styles from "./header.module.css";
+import styles from "./Header.module.css";
 
 // Images
 import { logo } from "@img/index";

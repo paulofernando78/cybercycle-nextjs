@@ -1,5 +1,5 @@
 // Styles
-import styles from "./styles.module.css";
+import styles from "./Navbar.module.css";
 import Link from "next/link";
 
 const links = [

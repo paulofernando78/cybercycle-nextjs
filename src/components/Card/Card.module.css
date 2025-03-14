@@ -1,0 +1,50 @@
+.card__container {
+  border: 1px solid var(--gray-5);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.card__container:hover {
+  border: 1px solid var(--gray-4);
+  box-shadow: 0 0 10px var(--gray-4);
+  transform: scale(1.02);
+  transition: all 0.3s;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 12px;
+  color: transparent;
+}
+
+.card__header--silver {
+  -webkit-text-stroke: 1px var(--slate-4);
+  text-shadow: 1px 1px 10px var(--slate-4);
+  color: var(--slate-4);
+}
+
+.card__header--gold {
+  -webkit-text-stroke: 1px var(--yellow-5);
+  text-shadow: 1px 1px 10px var(--yellow-5);
+  color: var(--yellow-5);
+}
+
+.card__price {
+  font-size: 1rem;
+  position: relative;
+  left: 5px;
+}
+
+.card__description {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.card__description::before {
+  content: "✔";
+  margin-right: 0.5rem;
+}
